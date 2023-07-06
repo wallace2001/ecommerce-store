@@ -8,7 +8,6 @@ import NavbarActions from "./navbar-actions";
 
 export default async function NavBar() {
     const categories = await getCategories();
-    console.log(categories);
 
     return (
         <div className="border-b">
